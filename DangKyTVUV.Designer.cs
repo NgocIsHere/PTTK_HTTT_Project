@@ -41,9 +41,9 @@
             textBox4 = new TextBox();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
-            checkedListBox1 = new CheckedListBox();
             dateTimePicker1 = new DateTimePicker();
             button1 = new Button();
+            comboBox1 = new ComboBox();
             SuspendLayout();
             // 
             // label1
@@ -157,15 +157,6 @@
             checkBox2.Text = "Nữ";
             checkBox2.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
-            // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Đại học", "Cao Đẳng", "Trung cấp" });
-            checkedListBox1.Location = new Point(469, 380);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(173, 32);
-            checkedListBox1.TabIndex = 13;
-            // 
             // dateTimePicker1
             // 
             dateTimePicker1.Location = new Point(469, 138);
@@ -183,14 +174,23 @@
             button1.Text = "ĐĂNG KÝ";
             button1.UseVisualStyleBackColor = false;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Đại học", "Cao Đẳng", "Trung cấp" });
+            comboBox1.Location = new Point(469, 379);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(182, 33);
+            comboBox1.TabIndex = 16;
+            // 
             // DangKyTVUV
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1152, 725);
+            Controls.Add(comboBox1);
             Controls.Add(button1);
             Controls.Add(dateTimePicker1);
-            Controls.Add(checkedListBox1);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(textBox4);
@@ -226,8 +226,8 @@
         private TextBox textBox4;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
-        private CheckedListBox checkedListBox1;
         private DateTimePicker dateTimePicker1;
         private Button button1;
+        private ComboBox comboBox1;
     }
 }
