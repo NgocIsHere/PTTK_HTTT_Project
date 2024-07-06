@@ -1,0 +1,8 @@
+﻿-----------------------------------------------------------
+1_QLHSUT_schema: tạo db
+2_QLHSUT_user: tạo user, role cho db, cấp quyền cho user
+3_Proc_Func_Trig: các proc, func, trig được sử dụng cho app
+-----------------------------------------------------------
+
+Các thông tin cập nhật hay thông tin muốn cập nhật về database, vui lòng cập nhật trong file này:
+Tạo 1 store procedure USER_LOGIN phục vụ login
